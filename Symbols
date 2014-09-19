@@ -1,13 +1,19 @@
 Notes
 
-A function only makes one output
+A function only makes one output.
+Function name can't start with a number.
 "Methods" are functions in a class
 "Attributes" are variables in a class
+2D list     [[1,2,3],[4,5,6]]
+Help - type in Powershell -m pydoc xxx
+ordinal numbers   
+cardinal numbers    
+
+
 
 
 Keywords (excludes easy ones)
 
-Del         Delete
 from        Use when importing: from sys import argv
 while       Loop while logical operator is True
 for         Loop over the defined range
@@ -26,9 +32,10 @@ lambda      create anonymous functions.
 pass        placeholder when writing that does nothing – e.g. def function(arg): pass
 global      declaration that holds for all code. Assign a global variable.
 with 
+Del         Delete
 assert      test that statement that should be True is True. Use for debugging.
 import      make a module available to subsequent code
-print       write out on the screen
+print       write out on the screen. add , to avoid \n at end of line.
 exec        statement. Compiles and evaluates a statement in a string.
 raise ??? 
 return      output returned by a function
@@ -36,12 +43,27 @@ self        inside functions of a class, self is a variable for the instance/obj
 is-a        something inherits from another, e.g. a salmon is a fish
 has-a       something is composed of other things or has a trait e.g. a salmon has a mouth
 dict        dictionary { }. Also called hashes.
+raw_input('>')  user enters data at prompt > 
+seek
+range
 .get
 .decode
 .append
 .rstrip
 .compile
 .flush
+.split      
+.pop        remove the last entry and return it
+:           creates branch in code. Expect indented code after this.
+==          test if a = b
+open(x, r)  r is read mode, w is write mode. Can open multiple copies.
+.read()
+.close()    close the file
+.next()     the next value
+readline()  next line from file
+truncate()  
+write(stuff)  
+from x import exists    TRUE if file does exist, FALSE otherwise
 
 
 Exit types
