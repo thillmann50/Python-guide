@@ -44,6 +44,7 @@ is-a        something inherits from another, e.g. a salmon is a fish
 has-a       something is composed of other things or has a trait e.g. a salmon has a mouth
 dict        dictionary { }. Also called hashes.
 raw_input('>')  user enters data at prompt > 
+int(x)       returns x as a number
 seek
 range
 .get
