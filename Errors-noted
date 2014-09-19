@@ -1,0 +1,9 @@
+Typed $r instead of %r
+spelling error
+missed : from end of line
+used incorrect argument name inside function
+forgot a line
+misnamed variable
+missed an =
+missed a variable after elif    i.e. wrote elif ==
+missed , from print "x", next_one
