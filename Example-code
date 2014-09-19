@@ -1,0 +1,3 @@
+class name():
+  def x(self, y):
+    ...
